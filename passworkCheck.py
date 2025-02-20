@@ -60,9 +60,8 @@ def check_password_strength(password):
 
     # Strength rating
     if score >= 5:
-        return "Strong password:", feedback
+        return "You have a strong password"
     elif score >= 3:
         return "Moderate password:", feedback
     else:
         return "Weak password:", feedback
-
